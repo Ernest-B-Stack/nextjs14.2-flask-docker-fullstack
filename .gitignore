@@ -1,0 +1,22 @@
+# Node dependencies & builds
+node_modules/
+.next/
+out/
+build/
+
+# Python & Flask artifacts
+__pycache__/
+*.pyc
+backend/instance/
+*.db
+
+# Local environment configuration settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
